@@ -2,8 +2,12 @@ name: Executar Bot da Copa do Mundo
 
 on:
   schedule:
-    # Configurado para rodar todos os dias às 08:00 do Horário de Brasília (11:00 UTC)
-    - cron: '0 11 * * *'
+    # O GitHub usa o fuso horário UTC (3 horas à frente de Brasília)
+    # Rodar às 03:05 UTC = 00:05 do Horário de Brasília (Madrugada)
+    - cron: '5 3 * * *'
+    
+    # Rodar às 15:00 UTC = 12:00 do Horário de Brasília (Meio-dia)
+    - cron: '0 15 * * *'
   workflow_dispatch: # Permite que você clique num botão para rodar manualmente se quiser testar
 
 jobs:
