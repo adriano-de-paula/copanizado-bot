@@ -24,8 +24,7 @@ Este projeto foi estruturado seguindo as melhores práticas de segurança do mer
 
 1. **Clona o repositório:**
    ```bash
-   git clone [https://github.com/adriano-de-paula/copanizado-bot.git](https://github.com/adriano-de-paula/copanizado-bot.git)
-   cd copanizado-bot
+     git clone https://github.com/adriano-de-paula/copanizado-bot.git
    ```
 ---
 
